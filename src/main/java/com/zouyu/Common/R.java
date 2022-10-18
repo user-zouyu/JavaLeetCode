@@ -33,7 +33,7 @@ public class R<Actual, Expected> {
         return new R<>("error", actual, expected);
     }
 
-    public static <Actual, Expected> R<Actual, Expected> error(String title, Actual actual, Expected expected) {
+    public static <Actual, Expected> R<Actual, Expected> of(String title, Actual actual, Expected expected) {
         return new R<>(title, actual, expected);
     }
 

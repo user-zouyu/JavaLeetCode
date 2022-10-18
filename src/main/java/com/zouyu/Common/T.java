@@ -5,6 +5,9 @@ package com.zouyu.Common;
  * @version 1.0.0
  */
 public class T {
+    public static <T> T[] of(T[] arr) {
+        return arr;
+    }
 
     public static int[] of(int ...ints) {
         return ints;
