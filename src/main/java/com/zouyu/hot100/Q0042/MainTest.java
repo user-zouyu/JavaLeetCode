@@ -15,7 +15,7 @@ import java.util.stream.Stream;
  */
 public class MainTest {
 
-    private static final Solution solution = new Solution();
+    private static final Solution solution = new SolutionStack();
 
 
     @ParameterizedTest
